@@ -84,7 +84,7 @@ if (isset($_POST['submit'])) {
                                 </div>
 
                                 <div class="form-group">
-                                    <label>Cost of Item</label>
+                                    <label>Cost</label>
                                     <input class="form-control" type="text" value="<?= $data['ExpenseCost'] ?>" required="true" name="costitem">
                                 </div>
 

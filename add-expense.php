@@ -70,7 +70,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 								</div>
 								
 								<div class="form-group">
-									<label>Cost of Item</label>
+									<label>Cost</label>
 									<input class="form-control" type="text" value="" required="true" name="costitem">
 								</div>
 																
