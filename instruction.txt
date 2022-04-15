@@ -1,0 +1,4 @@
+## Installation process
+1. run Xampp.
+2. import database from ./database folder
+3. Set Mysql database connection at ./includes/dbconnection.php

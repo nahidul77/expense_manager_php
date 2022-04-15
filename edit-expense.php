@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
     $costitem = $_POST['costitem'];
 
     $query = mysqli_query($con, "UPDATE tblexpense SET ExpenseDate = '$dateexpense', ExpenseItem = '$item', ExpenseCost = '$costitem' where ID='$id'");
-    
+
     if ($query) {
         echo "<script>alert('Expense Update Successfully');</script>";
         echo "<script>window.location.href='manage-expense.php'</script>";
